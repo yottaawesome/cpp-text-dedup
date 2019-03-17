@@ -33,4 +33,7 @@
 
 *.suo
 *.tlog
-.vs/
+/src/x64
+/src/build
+/src/.vs
+/src/*.user

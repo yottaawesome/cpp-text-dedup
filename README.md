@@ -1,8 +1,29 @@
 # cpp-text-dedup
-The C++ version of my C# TextDedup utility.
+
+## Introduction
+
+This is the C++ version of my [C# TextDedup utility](https://github.com/yottaawesome/TextDedup). It is intended to be cross-platform and take advantage of newer C++ features like `std::filesystem`.
 
 ## Why a second utility?
-The portable release build of the C# .NET Core 2.1 version of TextDedup is a 60+MB monstrosity spread across a large number of files. I know we live in a world where software bloat is the norm, but I like to think I'm doing my part to fight it. :-)
 
-## When will it be done?
-ASAP. However, my availability will be limited over the next couple of months, so a delay is to be expected.
+The portable release build of the C# .NET Core 2.1 version of TextDedup is a 60+MB monstrosity spread across a large number of files. Software bloat is bad; I like to think I'm doing my part to fight it. :-)
+
+## Switches
+Invoke from the command prompt.
+
+* `/src:` 
+    * _Required._ 
+    * The file that contains the data to be deduplicated.
+* `/dst:`
+    * _Optional; defaults to_ _**\<filename\> [deduped].\<extension\>**._ 
+	* The destination file to receive the deduplicated text.
+* `/del:`
+    * _Optional; defaults to ';'._ 
+	* The delimiter to use.
+    
+
+_Example:_ `tddp /src:test.txt /dst:deduped-test.txt /del:||` 
+
+## What's the status?
+
+In development. I'm juggling a nanodegree while also pursuing some CompTIA certifications for the cloud and Linux.

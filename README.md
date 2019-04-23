@@ -2,11 +2,10 @@
 
 ## Introduction
 
-This is the C++ version of my [C# TextDedup utility](https://github.com/yottaawesome/TextDedup). It is intended to be cross-platform and take advantage of newer C++ features like `std::filesystem`.
+This is the C++ version of my [C# TextDedup utility](https://github.com/yottaawesome/TextDedup). It is intended to be cross-platform and take advantage of newer C++ features like `std::filesystem`. The primary motivation behind this second C++ utility is the portable release build of the C# .NET Core 2.1 version of TextDedup is a 60+MB monstrosity spread across a large number of files. Software bloat is bad; I like to think I'm doing my part to fight it. :-)
 
-## Why a second utility?
-
-The portable release build of the C# .NET Core 2.1 version of TextDedup is a 60+MB monstrosity spread across a large number of files. Software bloat is bad; I like to think I'm doing my part to fight it. :-)
+## Status
+__In development.__
 
 ## Switches
 Invoke from the command prompt.

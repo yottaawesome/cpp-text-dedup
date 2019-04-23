@@ -22,7 +22,3 @@ Invoke from the command prompt.
     
 
 _Example:_ `tddp /src:test.txt /dst:deduped-test.txt /del:||` 
-
-## What's the status?
-
-In development. I'm juggling a nanodegree while also pursuing some CompTIA certifications for the cloud and Linux.

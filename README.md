@@ -1,4 +1,4 @@
-# cpp-text-dedup
+# C++ Text Deduplicator
 
 ## Introduction
 
